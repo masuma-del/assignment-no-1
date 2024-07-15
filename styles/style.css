@@ -7,6 +7,20 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared style */
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+
+}
+.section-description{
+    font-size: 16px;
+}
+.text-center{
+    text-align: center;
+    margin-top: ;
+}
 /* header */
 .header{
     background-image: url('../assets/Hero-bg.png');
@@ -61,4 +75,27 @@ nav{
     align-items: center;
     width: 200px;
     height: 60px;
+}
+/* learn section style */
+.learn-container{
+    display: flex;
+}
+.btn-learn{
+    font-size: 20px;
+    font-weight: 600;
+    width: 130px;
+    height: 25px;
+}
+.learn-pic{
+    display: flex;
+    justify-content: space-between;
+}
+.learn-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 5px 250px;
+    width: 850px;
+    height: 240px;
+    align-items: center;
+    padding: 45px;
 }
