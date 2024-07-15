@@ -7,6 +7,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+.header{
+    background-image: url('../assets/Hero-bg.png');
+    padding-top: 5px;
+}
 
 
 
@@ -35,7 +40,25 @@ nav{
     font-size: 16px;
     font-weight: 400px;
 }
-.banner-pic{
-    display: flex;
+
+.banner-content{
     align-items: center;
+    margin: 50px 150px 0px 350px;
+    justify-content: center right;
+    padding: 10px 200px 5px 250px;
+    
+}
+.banner{
+    
+    text-align: center;
+}
+.banner-text{
+    text-align: center;
+}
+.btn-content{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    align-items: center;
+    width: 200px;
+    height: 60px;
 }
