@@ -17,9 +17,8 @@
 .section-description{
     font-size: 16px;
 }
-.text-center{
+.text-center {
     text-align: center;
-    margin-top: ;
 }
 /* header */
 .header{
@@ -77,8 +76,8 @@ nav{
     height: 60px;
 }
 /* learn section style */
-.learn-container{
-    display: flex;
+.learns{
+    margin-top: 100px;
 }
 .btn-learn{
     font-size: 20px;
@@ -86,16 +85,30 @@ nav{
     width: 130px;
     height: 25px;
 }
-.learn-pic{
-    display: flex;
-    justify-content: space-between;
-}
+
 .learn-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 150px 5px 250px;
+    margin-left: 500px;
+    align-items: center;
     width: 850px;
     height: 240px;
-    align-items: center;
-    padding: 45px;
+    padding: 80px;
+    justify-content: center;
 }
+.learn-1 {
+    display: flex;
+    gap: 120px;
+}
+.learn-2{
+    display: flex;
+    margin-top: 32px;
+    gap: 70px;
+}
+.learn-3{
+    display: flex;
+    margin-top: 32px;
+    gap: 120px;
+}
+
+ 
+   
+
