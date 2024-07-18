@@ -12,7 +12,6 @@
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
-
 }
 .section-description{
     font-size: 16px;
@@ -25,10 +24,6 @@
     background-image: url('../assets/Hero-bg.png');
     padding-top: 5px;
 }
-
-
-
-
 /* nav style */
 nav{
     display: flex;
@@ -53,7 +48,6 @@ nav{
     font-size: 16px;
     font-weight: 400px;
 }
-
 .banner-content{
     align-items: center;
     margin: 50px 150px 0px 350px;
@@ -75,39 +69,47 @@ nav{
     width: 200px;
     height: 60px;
 }
-/* learn section style */
-.learns{
-    margin-top: 100px;
-}
-.btn-learn{
+/* web section style */
+
+.btn-sec{
     font-size: 20px;
     font-weight: 600;
     width: 130px;
     height: 25px;
 }
-
-.learn-container{
-    margin-left: 500px;
-    align-items: center;
-    width: 850px;
-    height: 240px;
-    padding: 80px;
-    justify-content: center;
+.web{
+    margin-top: 50pxpx;
 }
-.learn-1 {
+
+.web-container{
+   justify-content: center;
+   align-items: center;
+   margin-left: 550px;
+   padding: 40px;
+}
+.cooding-1 {
     display: flex;
     gap: 120px;
 }
-.learn-2{
+.creating{
     display: flex;
     margin-top: 32px;
     gap: 70px;
 }
-.learn-3{
+.cooding-2{
     display: flex;
     margin-top: 32px;
     gap: 120px;
 }
+/* motivation style */
+
+.motiv-video{
+    margin-left: 800px;
+    width: 1120px;
+    height: 700px;
+}
+
+
 
  
    
